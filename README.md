@@ -1,4 +1,3 @@
-# Desafio-SOS-Tecnologia
   - Java 8
   - Mojarra 2.3.9.SP10
   - PrimeFaces 6.1
