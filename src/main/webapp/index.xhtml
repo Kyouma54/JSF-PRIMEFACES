@@ -1,0 +1,27 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:p="http://primefaces.org/ui" xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:h="http://xmlns.jcp.org/jsf/html"
+    template="#{layoutMB.layout}">
+
+    <ui:define name="head-end">
+        <ui:param name="renderBreadCrumb" value="false" />
+    </ui:define>
+
+
+    <ui:define name="title">
+        <div class="align-center">
+            <p:graphicImage library="images" name="sos-docs-300x175.png" />
+        </div>
+        <p:growl autoUpdate="true" life="4000" />
+
+        <h2 class="align-center">
+            <span class="text-aqua"> <a target="_blank">Gerenciador de Patrimônio</a></span>
+            <br />
+        </h2>
+    </ui:define>
+
+    <ui:define name="body">
+
+
+    </ui:define>
+
+</ui:composition>
